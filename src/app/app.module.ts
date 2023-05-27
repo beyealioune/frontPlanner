@@ -11,6 +11,8 @@ import { ColorPickerModule } from 'ngx-color-picker';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -24,7 +26,7 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     
     BrowserModule,
-    AppRoutingModule, FormsModule, ColorPickerModule, ReactiveFormsModule 
+    AppRoutingModule, FormsModule, ColorPickerModule, ReactiveFormsModule,HttpClientModule,
 
   ],
   providers: [],
